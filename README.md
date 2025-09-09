@@ -13,16 +13,16 @@ The pipeline is modular and extensible, allowing you to:
     
    - Save and visualize model results for further analysis.
 
-# ⚙️ Installation & Setup
-1️⃣ Clone the Repository
+# Installation & Setup
+1️. Clone the Repository
 ```
-git clone https://github.com/kunal2026/HoneyWell_TEP.git
+git clone https://github.com/TeresaSaraSaji/AnomalySense.git
 ```
 ```
-cd HoneyWell_TEP
+cd AnomalySense
 ```
 
-2️⃣ Create Virtual Environment
+2️. Create Virtual Environment
 ```
 python -m venv venv
 ```
@@ -34,7 +34,7 @@ Windows PowerShell
 ```
 venv\Scripts\activate
 ```
-3️⃣ Install Dependencies
+3️. Install Dependencies
 ```
 pip install -r web/requirements.txt
 ```
@@ -42,7 +42,7 @@ pip install -r web/requirements.txt
 ```
 pip install tensorflow
 ```
-# 🚀 Usage
+# Usage
 The main script is models/run_algorithms.py.
 It supports:
 
@@ -67,7 +67,7 @@ Output:
    - Anomaly scores + predictions saved in results.
    - This file can be downloaded.
 
-# 📊 Models Implemented
+# Models Implemented
  - Isolation Forest (Sklearn)
 
  - Local Outlier Factor (LOF)
@@ -82,7 +82,7 @@ Output:
 
  - Deep Autoencoder (TensorFlow/Keras)
 
-# 🔧 Configuration
+# Configuration
 You can configure:
 
 Dataset path (data/ directory)
@@ -91,7 +91,7 @@ Model parameters (edit config.json or modify arguments)
 
 Output - Downloadable sheet
 
-# 🧪 Example Workflow
+# Example Workflow
 Prepare the dataset in data/.
 
 Run anomaly detection:
@@ -102,21 +102,7 @@ Download the sheet from the given option.
 
 anomaly_scores.csv → anomaly scores per sample
 
-top_features.csv → Top 7 contributing features per entry
+top_features.csv → Top contributing features per entry
 
 
-# 📚 References
-_[1] A. Zimek and P. Filzmoser, "There and back again: Outlier detection between statistical reasoning and data mining algorithms," Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, vol. 3, no. 1, pp. 1–17, Jan. 2013._
-
-_[2] E. Gujral, "Survey: Anomaly Detection Methods," UCR MADLab, 2023._
-
-_[3] S. Pimentel, D. Clifton, L. Clifton, and L. Tarassenko, "A review of novelty detection," Signal Processing, vol. 99, pp. 215–249, Apr. 2014._
-
-_[4] P. Rousseeuw and A. Leroy, Robust Regression and Outlier Detection, Wiley, 1987._ 
-
-_[5] A. Chatterjee and B. S. Ahmed, "IoT anomaly detection methods and applications: A survey," arXiv, vol. 2207, p. 9092, Jul. 2022._
-
-_[6] Scikit-learn documentation: https://scikit-learn.org/_
-
-_[7] TensorFlow documentation: https://www.tensorflow.org/_
 
