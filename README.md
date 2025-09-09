@@ -1,4 +1,4 @@
-# 📌 Project Overview
+#  Project Overview
 This project focuses on Anomaly Detection in the Tennessee Eastman Process (TEP), a well-known industrial benchmark used for process control and fault detection research.
 
 We implement multiple machine learning and deep learning models to detect anomalies in TEP sensor data, with options for fast approximate detection or accurate but computationally heavier detection.
@@ -9,7 +9,7 @@ The pipeline is modular and extensible, allowing you to:
     
    - Select between Fast Mode (optimized for speed, still preserves feature importance length) and Accurate Mode (full evaluation across models).
     
-   - Extract Top 7 contributing features per data entry, explaining anomalies.
+   - Extract Top contributing features per data entry, explaining anomalies.
     
    - Save and visualize model results for further analysis.
 
@@ -119,3 +119,4 @@ _[5] A. Chatterjee and B. S. Ahmed, "IoT anomaly detection methods and applicati
 _[6] Scikit-learn documentation: https://scikit-learn.org/_
 
 _[7] TensorFlow documentation: https://www.tensorflow.org/_
+
